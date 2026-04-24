@@ -1,0 +1,30 @@
+# Core dependencies
+
+a2a-sdk[http-server]>=0.3.0
+langchain>=1.0
+langchain-openai>=0.3.0
+langgraph>=1.0.0
+fastapi[standard]>=0.115.0
+pydantic-settings>=2.2.1
+httpx>=0.24.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+python-dotenv>=1.0.0
+uvicorn>=0.34.0
+typer>=0.15.0
+ 
+# SAP Notes agent
+
+pymupdf>=1.24.0
+networkx>=3.0
+matplotlib>=3.7.0
+deepagents>=0.1.0
+ 
+# Dev / testing
+
+pytest>=7.4.0
+pytest-asyncio>=0.23.0
+pytest-cov>=4.0.0
+ruff>=0.2.0
+coverage>=7.4.0
+hypothesis>=6.0.0
